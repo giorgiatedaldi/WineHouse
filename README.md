@@ -49,4 +49,5 @@ Select **WineHouseServer** project, name the configuration **Server** and, after
 From Eclipse menu press **Run** > **Run configurations** and select the **new launch configuration** icon.
 Select **WineHouseClient** project, name the configuration **Client** and, after pressing the **search** button, select **Main-assegnamento**.
 
-##Start WineHouse Demo
+## Start WineHouse Demo
+You can now start the WineHouse demo by first starting the **Server** and then some **Clients**
