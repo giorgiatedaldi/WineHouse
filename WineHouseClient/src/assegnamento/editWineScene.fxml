@@ -44,7 +44,7 @@
       </Text>
       <Text fill="#451f38" layoutX="32.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winemaker" wrappingWidth="90.0">
          <font>
-            <Font name="Ink Free" size="19.0" />
+            <Font name="Ink Free" size="20.0" />
          </font>
       </Text>
       <Text fill="#451f38" layoutX="32.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year" wrappingWidth="62.693359375">

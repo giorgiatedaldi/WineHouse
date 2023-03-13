@@ -308,8 +308,6 @@ public class ServerThread implements Runnable
 			} 
 			catch (Exception e) 
 			{
-				e.printStackTrace();
-				this.connected = false;
 			}
 		}
 		try 
@@ -322,6 +320,7 @@ public class ServerThread implements Runnable
 		}
 		catch (IOException e) 
 		{
+			this.connected = false;
 			e.printStackTrace();
 		}
 	}

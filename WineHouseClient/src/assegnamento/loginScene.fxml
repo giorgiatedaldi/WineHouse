@@ -18,7 +18,7 @@
    <children>
       <Label id="loginLable3" fx:id="loginLable3" layoutX="155.0" layoutY="204.0" text="WineHouse!" textFill="#f7e4d7">
          <font>
-            <Font name="Ink Free" size="38.0" />
+            <Font name="Ink Free" size="42.0" />
          </font>
       </Label>
       <ImageView fitHeight="376.0" fitWidth="223.0" layoutX="-7.0" layoutY="-35.0" pickOnBounds="true" preserveRatio="true" rotate="-21.8">
@@ -70,7 +70,7 @@
             <ChoiceBox id="loginChoiceBox" fx:id="loginChoiceBox" layoutX="27.0" layoutY="198.0" prefHeight="25.0" prefWidth="213.0" style="-fx-background-color: #f7e4d7;" />
             <Text id="loginWrongText" fx:id="loginWrongText" fill="#451f38" layoutX="26.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" underline="true" wrappingWidth="213.0">
                <font>
-                  <Font name="Javanese Text" size="18.0" />
+                  <Font name="Javanese Text" size="14.0" />
                </font>
             </Text>
             <ImageView fitHeight="28.0" fitWidth="45.0" layoutX="196.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
@@ -92,7 +92,7 @@
       </Label>
       <Label id="loginLable2" fx:id="loginLable2" layoutX="187.0" layoutY="122.0" text="Welcome" textFill="#f7e4d7">
          <font>
-            <Font name="Ink Free" size="42.0" />
+            <Font name="Ink Free" size="48.0" />
          </font>
          <opaqueInsets>
             <Insets />

@@ -22,6 +22,7 @@ import java.util.concurrent.TimeUnit;
 **/
 
 /**
+* 
 * The {@code Server} class creates the ServerSocket and perform communications with clients.
 * Server communicates with the database and takes and saves data from the database.
 * 
@@ -31,7 +32,7 @@ public class Server
 	private static final int COREPOOL = 5;
 	private static final int MAXPOOL = 100;
 	private static final long IDLETIME = 5003;
-	private static final int SPORT = 4692;
+	private static final int SPORT = 4700;
 	private static MySystem mySystem = new MySystem();
 	private ServerSocket socket;
 	private ThreadPoolExecutor pool;
@@ -119,12 +120,12 @@ public class Server
 			a2.addEmployee(e2);
 			Wine w1 = new Wine ("Marcello", "Ariola", 2018, "Red and sparkling", "Lambrusco maestri", 30);
 			Wine w2 = new Wine ("Trento DOC", "Ferrari", 2002, "White and sparkling", "Chardonnay", 30);
-			Wine w3 = new Wine ("Otello", "Ceci", 2013, "Red and sparkling", "Lambrusco maestri", 30);
-			Wine w4 = new Wine ("Bolla", "Bardolino", 2019, "RosÃ¨", "Corvina", 30);
+			Wine w3 = new Wine ("Otello", "Ceci", 2013, "Red and sparkling", "Lambrusco maestri", 0);
+			Wine w4 = new Wine ("Bolla", "Bardolino", 2019, "Rosè", "Corvina", 30);
 			Wine w5 = new Wine ("Chianti", "Ruffino", 2019, "Red and still", "Sangiovese", 30);
 			Wine w6 = new Wine ("Chainti", "Cecchi", 2017, "Red and still", "Sangiovese", 30);
 			Wine w7 = new Wine ("Franciacorta", "Fratelli Berlucchi", 2008, "White and sparkling", "Chardonnay", 30);
-			Wine w8 = new Wine ("Franciacorta", "Mirabella", 2017, "RosÃ¨", "Chardonnay", 30);
+			Wine w8 = new Wine ("Franciacorta", "Mirabella", 2017, "Rosè", "Chardonnay", 30);
 			Wine w9 = new Wine ("Moscato giallo", "Colterenzio", 2016, "White", "Moscato giallo", 30);
 			Wine w10 = new Wine ("Valdobbiadene", "Adami", 2018, "Prosecco", "Glera", 30);
 			Wine w11 = new Wine ("Lugana DOC", "Famiglia Olivini", 2007, "White", "Trebbiano di Lugana", 30);
@@ -149,7 +150,7 @@ public class Server
 			e2.addWine(w15);
 			Customer c1 = new Customer ("Pietro", "Bianchi", "pb@gmail.com", "pb", mySystem);
 			c1.subscribeCustomer();
-			setDatabase();
+			refreshDatabase();
 		} 
 		catch (SQLException e) 
 		{

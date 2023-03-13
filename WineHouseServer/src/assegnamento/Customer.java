@@ -146,9 +146,23 @@ public class Customer extends Person
 	 **/
 	public String buy(Wine w, int n)
 	{
-		Order o = new Order(this.email, w, n, this.mySystem);
-		o.newOrder();
-		return (this.mySystem.request(o));
+		for(Customer toSearch: this.mySystem.getCustomerList())
+		{
+			if(toSearch.getEmail().equals(this.email))
+			{
+				if(toSearch.loginFlag)
+				{
+					Order o = new Order(this.email, w, n, this.mySystem);
+					o.newOrder();
+					return (this.mySystem.request(o));
+				}
+				else
+				{
+					return("Not logged in");
+				}
+			}
+		}
+		return("Not subscribed");
 	}
 	
 	/**

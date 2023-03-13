@@ -347,7 +347,7 @@ public class ActionController
     	}
     	else
     	{
-    		buyAmountWrong.setText("Insert a number");
+    		buyAmountWrong.setText("Insert valid number");
     	}
     }
 

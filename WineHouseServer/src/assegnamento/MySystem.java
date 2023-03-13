@@ -247,15 +247,16 @@ public class MySystem
 				 int type = this.requestType(orderToSearch);
 				 if (type == 0)
 				 { 
-					 this.setWine(w, w.getnWine() - orderToSearch.getnWineOrder()); 
+					 this.setWine(w, w.getnWine() - orderToSearch.getnWineOrder());
 					 return (""+orderToSearch.getnWineOrder() + " bottles of " +  w.getName() + " bought");
 				 }
 				 else if (type == 1)
 				 {
 					 int nOrdered = w.getnWine();
 					 this.setWine(orderToSearch.getWine(), 0);
+					 int bottles = o.getnWineOrder();
 					 orderToSearch.setnWine(nOrdered);
-					 return (""+ nOrdered + " of " + orderToSearch.getnWineOrder() + " bottles of " + w.getName() + " bought");
+					 return (""+ nOrdered + " of " + bottles + " bottles of " + w.getName() + " bought");
 				 }
 				 else if (type == 2)
 				 {

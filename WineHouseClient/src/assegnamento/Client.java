@@ -16,7 +16,7 @@ import java.net.Socket;
 **/
 public class Client
 {
-	private static final int SPORT = 4692;
+	private static final int SPORT = 4700;
 	private static final String SHOST = "localhost";
 	private ObjectOutputStream os;
 	private ObjectInputStream  is;
