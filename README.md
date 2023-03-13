@@ -68,7 +68,7 @@ The application handles three different types of users:
  ![orders](images/orders.png)
 
 - An Employee can: restock/remove an existing wine or add a new one
-- Customer can: view the wines' list, purchase them if available or request a notification when a specific wine is restocked
+- A Customer can: view the wines' list, purchase them if available or request a notification when a specific wine is restocked
 
 ![customer](images/customer.png)
 
