@@ -25,7 +25,7 @@ Open Eclipse and go to **preferences** > **Java** > **Build Path** > **User Libr
 Select the library you just created and click on **Add External JARs** and select all the .jar files from the directory where JavaFX library is saved.
 
 Now open Eclipse's preferences and select **Java** > **Installed JREs**
-Select the JRE version you are using and **duplicate** it. In the **JRE Definition** change the JRE name in **JRE+JavaFX** and in the **default VM arguments** past the following line on **Linux** or **Mac**:
+Select the JRE version you are using and **duplicate** it. In the **JRE Definition** change the name in **JRE+JavaFX** and in the **default VM arguments** past the following line on **Linux** or **Mac**:
 
 ```
 --module-path /path/to/javafx-sdk-17/lib --add-modules javafx.controls,javafx.fxml
