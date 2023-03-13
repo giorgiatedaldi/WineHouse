@@ -74,3 +74,8 @@ The application handles three different types of users:
 
 
 ![notifications](images/notifications.png)
+
+#Authors
+- Giorgia Tedaldi: giorgia.tedaldi@studenti.unipr.it
+- Martina Frati: martina.frati1@studenti.unipr.it
+- Diletta Quarticelli: diletta.quarticelli@studenti.unipr.it
