@@ -52,6 +52,13 @@ Select **WineHouseClient** project, name the configuration **Client** and, after
 ## Start WineHouse Demo
 Open **XAMPP** control panel and start **MySQL database**.
 You can now start the WineHouse demo by first starting the **Server** and then some **Clients**
+
+##Features
+The application handles three different types of users:
+- An Admin can: monitor orders, add/remove employees, reset employees' passwords and close the serverserv
+- An Employee can: restock/remove an existing wine or add a new one
+- Customer can: view the wines' list, purchase them if available or request a notification when a specific wine is restocked
+
 ![customer](images/customer.png)
 ![homescreen](images/homescreen.png)
 ![login](images/login.png)
