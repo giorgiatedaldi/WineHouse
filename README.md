@@ -52,4 +52,8 @@ Select **WineHouseClient** project, name the configuration **Client** and, after
 ## Start WineHouse Demo
 Open **XAMPP** control panel and start **MySQL database**.
 You can now start the WineHouse demo by first starting the **Server** and then some **Clients**
-!(images/customer.png)
+![customer](images/customer.png)
+![homescreen](images/homescreen.png)
+![login](images/login.png)
+![notifications](images/notifications.png)
+![orders](images/orders.png)
